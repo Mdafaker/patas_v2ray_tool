@@ -1,0 +1,15 @@
+{
+  "streamSettings": {
+    "network": "tls",
+    "security": "tls",
+    "tlsSettings": {
+      "certificates": [
+        {
+          "certificateFile": "/data/data/com.termux/files/usr/etc/v2ray/fullchain.pem",
+          "keyFile": "/data/data/com.termux/files/usr/etc/v2ray/key.pem"
+        }
+      ]
+    }
+  }
+}
+

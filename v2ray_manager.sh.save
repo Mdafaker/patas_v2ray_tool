@@ -1,0 +1,27 @@
+#!/bin/bash
+while true; do
+  clear
+  echo -e "\e[32m=====
+  echo -e "\e[33m[2] Cambiar protocolo\e[0m"
+  echo -e "\e[33m[3] Activar TLS\e[0m"
+  echo -e "\e[33m[4] Cambiar puerto V2Ray\e[0m"
+  echo -e "\e[33m[5] Agregar usuario Uostrar usuarios registrados\e[0m"
+  echo -e "\e[33m[8] Información de cuentas\e[0m"
+  echo -e "\e[33m[9] Estadísticas de consumo\e[0m"
+  echo -e "\e[33m[10] Limitador por consumo (BETA)\e[0m"
+  eicho -e "\e[33m[11] Limpiador de expirados\e[0m"
+  echo -e "\e[33m[12] Desinstalar V2Ray\e[0m"
+  echo -e "\e[33m[13] Iniciar servidor V2Ray\e[0m"
+  echo -e "\e[33m[14] Reiniciar servidor V2Ray\e[0m"
+  echo -e "\e[33m[15] Apagar servidor V2Ray\e[0m"
+  echo -e "\e[31m[0] Salir\e[0m"
+  read -p "Seleccione una opción: " opcion
+  case $opcion in
+    1)
+      apt install v2ray
+      read -p "Presione Enter para continuar..."
+      ;;
+    
+
+⁸s
+eee		
